@@ -4,7 +4,9 @@ class Application
     resp = Rack::Response.new
     req = Rack::Request.new(env)
     
-    
-    
+    if 
+    else
+      resp.write "Route not found"
+      resp.status =
     resp.finish
   end
