@@ -12,7 +12,7 @@ class Application
       item = @@items.find{|i| i.name == item_name}
       
       resp.write item.price
-    elsif 
+    elsif item == nil
     
     
     else
